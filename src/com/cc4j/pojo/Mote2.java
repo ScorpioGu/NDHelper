@@ -1,7 +1,5 @@
 package com.cc4j.pojo;
 
-import com.cc4j.pojo.protocol.NdpProtocol;
-
 public class Mote2 extends Mote {
 		
 	public Mote2() {
@@ -27,6 +25,7 @@ public class Mote2 extends Mote {
 	/** 时隙时间 */
 	private int slotTime;	
 	
+
 	/** 轮数 */
 	private int roundNum;			
 	
@@ -38,6 +37,7 @@ public class Mote2 extends Mote {
 	
 	/** 发现延迟 */
 	private long latencyTime;
+	
 	
 	/** 文件行号  */
 	private long fileLineNum;
@@ -68,6 +68,7 @@ public class Mote2 extends Mote {
 	public void setLog(Log log) {
 		this.log = log;
 	}
+	
 	
 	public int getCountNum() {
 		return countNum;

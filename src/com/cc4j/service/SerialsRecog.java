@@ -1,4 +1,6 @@
-package com.cc4j.util;
+package com.cc4j.service;
+
+import com.cc4j.util.PropertiesUtil;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

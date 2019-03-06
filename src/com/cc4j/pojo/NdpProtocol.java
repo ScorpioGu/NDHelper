@@ -1,4 +1,4 @@
-package com.cc4j.pojo.protocol;
+package com.cc4j.pojo;
 
 /*
  * 		所有Mac协议的父类,主要包含协议的公共参数

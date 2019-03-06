@@ -1,6 +1,6 @@
-package com.cc4j.pojo.protocol;
+package com.cc4j.pojo;
 
-public class Hello_S extends NdpProtocol {
+public class Hello_S extends NdpProtocol{
 	
 	private int slotLen;
 	private int slotExtensionLen;

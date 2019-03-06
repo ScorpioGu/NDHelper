@@ -1,6 +1,4 @@
-package com.cc4j.pojo.protocol;
-
-import com.cc4j.pojo.protocol.NdpProtocol;
+package com.cc4j.pojo;
 
 public class UConnect extends NdpProtocol {
 	

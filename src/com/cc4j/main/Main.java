@@ -10,7 +10,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import com.cc4j.service.MsgProcessor;
 import com.cc4j.pojo.Mote2;
 import com.cc4j.serial.SerialInteractor;
-import com.cc4j.util.SerialsRecog;
+import com.cc4j.service.SerialsRecog;
 import com.cc4j.pojo.NdpMsg;
 import com.cc4j.gui.NeigDiscoUI;
 

@@ -1,12 +1,10 @@
 package com.cc4j.pojo;
 
+
 import com.cc4j.serial.NdpSerial;
 
-/*
- * 给串口数据包添加节点Id字段
- **/
 public class NdpMsg {
-	private NdpSerial ndpSerial;
+	private NdpSerial ndpSerial;//？？是一些和通信有关的数据包信息吗 还是啥
 	private int moteId;
 	
 	public NdpMsg(NdpSerial ndpSerial, int moteId) {

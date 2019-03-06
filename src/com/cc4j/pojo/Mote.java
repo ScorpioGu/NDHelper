@@ -1,18 +1,24 @@
 package com.cc4j.pojo;
 
+
 import com.cc4j.serial.SerialInteractor;
 
 public class Mote {
 	private static int repeatCount;
 	private static int maxDelay;
 	private int id;
+/*************************************************************************************************************************/		//20180402@LW
+	//private int localTime;			节点为uint32_t,java应该使用long
 	private long localTime;
+/*************************************************************************************************************************/
 	private int delay;
 	private SerialInteractor interactor;
 	private Mote neighMote;
 	private boolean localTimeValid = false;
 	private boolean commandSent = false;
 	
+	
+
 	public Mote getNeighMote() {
 		return neighMote;
 	}

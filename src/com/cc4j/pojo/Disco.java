@@ -1,10 +1,10 @@
-package com.cc4j.pojo.protocol;
+package com.cc4j.pojo;
 
 
 /**
  * 		Disco 协议
  * */
-public class Disco extends NdpProtocol {
+public class Disco extends NdpProtocol{
 
 	private int slotlen;		//时隙长度，单位ms
 	private int prime1;			//素数1

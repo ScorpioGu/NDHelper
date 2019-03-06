@@ -1,6 +1,6 @@
-package com.cc4j.pojo.protocol;
+package com.cc4j.pojo;
 
-public class Bmp extends NdpProtocol {
+public class Bmp extends NdpProtocol{
 	
 	private int periodLen;
 	private int listenTimeLen;
@@ -11,6 +11,9 @@ public class Bmp extends NdpProtocol {
 		this.periodLen = periodLen;
 	}
 	public int periodLenMote() {
+		return listenTimeLen;
+	}
+	public int getListenTimeLen() {
 		return listenTimeLen;
 	}
 	public void setListenTimeLen(int listenTimeLen) {
