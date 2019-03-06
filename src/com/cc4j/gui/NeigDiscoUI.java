@@ -27,17 +27,9 @@ import java.util.Map;
 import javax.swing.border.TitledBorder;
 import javax.swing.UIManager;
 
+import com.cc4j.pojo.*;
 import com.cc4j.serial.NdpSerial;
 import com.cc4j.serial.SerialInteractor;
-import com.cc4j.pojo.protocol.Bmp;
-import com.cc4j.pojo.protocol.Disco;
-import com.cc4j.pojo.protocol.Hello;
-import com.cc4j.pojo.protocol.Hello_S;
-import com.cc4j.pojo.protocol.Hello_SR;
-import com.cc4j.pojo.Mote2;
-import com.cc4j.pojo.protocol.Searchlight_S;
-import com.cc4j.pojo.protocol.Searchlight_Stripe_S;
-import com.cc4j.pojo.protocol.UConnect;
 
 public class NeigDiscoUI extends JFrame {
 
