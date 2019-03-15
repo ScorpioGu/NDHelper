@@ -21,8 +21,8 @@ setting存放随机数，用于实际实验。
 util提供了一些工具类，用于文件处理，Properties读取。
 
 ## TIPS:
-    * 该工具需配合telosb节点使用
-    * 节点端串口通信的模块在NdpSerial文件夹中
+    该工具需配合telosb节点使用
+    节点端串口通信的模块在NdpSerial文件夹中
     
 
 
